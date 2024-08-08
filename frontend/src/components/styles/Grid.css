@@ -1,0 +1,36 @@
+.node {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.selected {
+    background: grey;
+}
+
+.start {
+    background: rgb(10, 214, 10);
+}
+
+.end {
+    background: rgb(251, 45, 45);
+}
+
+button {
+
+    height: 100px;
+    width: 100px;
+
+}
+
+.grid {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+}
